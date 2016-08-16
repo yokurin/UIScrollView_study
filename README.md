@@ -1,4 +1,4 @@
-# UIScrollViewをstoryboardだけで作成
+# ScrollViewをstoryboardだけで実装
 
 ## 手順
 1. ViewController内にあらかじめ置いてある、Viewを削除し、ScrollViewを追加
