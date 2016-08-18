@@ -14,7 +14,7 @@
 5. Viewを画面サイズ(ScrollView)より大きくすれば、スクロールできるようになる  
   - サンプルでは、Width = ScrollViewWidth*2, Height = ScrollViewHeight*3
 
-#### 余談
+#### おまけ
 スクロールをカルーセルのように一定区間で区切るようにしたい場合は  
 ScrollViewのScrolling: Paging Enabled  
 にチェックを入れる
