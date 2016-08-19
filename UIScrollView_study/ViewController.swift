@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let views = ["0F10F1","0F0002","0F110F","F01011","0F11A2","1F0000","110F11","1100F2","11F100"]
+        let views = ["0F10F1","0F0002","0F11FF","F01011","0F11A2","1F0000","110F11","1100F2","11F100"]
         
         for (index, val) in views.enumerate() {
             let addView = createDisplaySizeView(val, index: index)
@@ -23,10 +23,7 @@ class ViewController: UIViewController {
             var y: CGFloat = 0
             let width = self.screenWidth()
             let height = self.screenHeight()
-            if index == 0 {
-                x = width / 2
-                y = height / 2
-            } else if index > 0 && index < 3 { // 1段目
+            if index >= 0 && index < 3 { // 1段目
                 x = (width / 2) * CGFloat(index + (index + 1))
                 y = height / 2
             } else if index >= 3 && index < 6 { // 2段目
