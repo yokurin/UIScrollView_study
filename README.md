@@ -14,6 +14,7 @@
 5. Viewを画面サイズ(ScrollView)より大きくすれば、スクロールできるようになる  
   - サンプルでは、Width = ScrollViewWidth*2, Height = ScrollViewHeight*3
 
+
 #### おまけ
 スクロールをカルーセルのように一定区間で区切るようにしたい場合は  
 ScrollViewのScrolling: Paging Enabled  
@@ -23,6 +24,8 @@ ScrollViewのScrolling: Paging Enabled
 ![参考画像](./scrollview.gif)  
 
 
+  
+  
 
 参考:  
 [【Swift】Scroll Viewの使い方。大きい部品をスクロールして見る](http://hajihaji-lemon.com/smartphone/swift/uiscrollview/)  
