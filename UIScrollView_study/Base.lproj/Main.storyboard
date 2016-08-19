@@ -14,12 +14,12 @@
                         <viewControllerLayoutGuide type="top" id="4Kh-zO-JxD"/>
                         <viewControllerLayoutGuide type="bottom" id="9rF-DR-c5m"/>
                     </layoutGuides>
-                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="50j-sH-M6d">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" id="50j-sH-M6d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddG-Of-ZqZ">
-                                <rect key="frame" x="0.0" y="0.0" width="1125" height="2001"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1800" height="1800"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -32,10 +32,15 @@
                             <constraint firstItem="ddG-Of-ZqZ" firstAttribute="top" secondItem="50j-sH-M6d" secondAttribute="top" id="xed-09-eW8"/>
                         </constraints>
                     </scrollView>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="innerView" destination="ddG-Of-ZqZ" id="ALb-fa-BxW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="477" y="464"/>
         </scene>
     </scenes>
 </document>
