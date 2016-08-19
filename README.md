@@ -20,6 +20,8 @@ ScrollViewのScrolling: Paging Enabled
 にチェックを入れる
 ![参考画像](./3.png)
 
+![参考画像](./scrollview.gif)  
+
 
 
 参考:  
